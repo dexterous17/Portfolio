@@ -1,0 +1,92 @@
+.App__Container{
+
+  position: absolute;
+  display: flex;
+  flex-flow: row;
+  padding-left: 10%; 
+  padding-right:10% ;
+  top: 10%;
+
+}
+
+.Container__1{
+
+  display: flex;
+  flex-flow: column wrap;
+
+}
+
+.Container__1 > .One__Container >.Container__image > img{
+
+  width: 180px;
+  border-radius: 40%;
+
+}
+
+.Container__1 > .One__Container >.Container__link {
+
+  display: flex;
+  flex-flow: column;
+
+}
+
+
+
+.Container__2{
+
+  padding-left:5%;
+  padding-right:5%;
+  padding-top: 0%;
+
+}
+
+.Container__2 > .Two__Introduction{
+  
+  font-size: 1.1rem;
+
+}
+
+.Container__2 > .Two__Project > .Project__Title{
+
+  padding-top: 20px;
+  font-size: 2rem;
+
+}
+
+
+@media only screen and (max-width: 650px) {
+  .App__Container{
+    flex-flow: wrap;
+    padding-left:0%; 
+  padding-right:0% ;
+  }
+  .Container__1 > .One__Container{
+    display: flex;
+    flex-flow: row;
+    position: relative;
+  }
+  .Container__1 > .One__Container >.Container__link {
+    position: absolute;
+    left: 110%;
+    top: 15%;
+  }
+  .Container__1 > .One__Container >.Container__link > a {
+    padding-top: 2%;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+
+  .App__Container{
+    top:5%;
+  }
+
+  .Container__2{
+
+    padding-left:0%;
+    padding-right:0%;
+    padding-top: 7%;
+  
+  }
+
+}

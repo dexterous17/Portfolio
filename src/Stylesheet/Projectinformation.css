@@ -1,0 +1,51 @@
+.Container__2 > .Two__Project > .Project__Information{
+  
+    padding-top: 10px;
+    
+  }
+  
+  .Container__2 > .Two__Project > .Project__Information> div{
+    
+    padding-bottom: 10px;
+    
+  }
+  
+  .Container__2 > .Two__Project > .Project__Information> .Information__Name{
+    
+    font-size: 23px;
+    
+  }
+
+  .Container__2 > .Two__Project > .Project__Information >.Information__Skills > .Skill__Title{
+    font-size: 20px;
+  }
+
+  .Container__2 > .Two__Project > .Project__Information >.Information__Skills > .Skill__Name{
+    display: inline;
+    padding-right: 15px;
+    padding-left: 15px;
+    border-right: 1px solid white;  
+  }
+  
+  .Container__2 > .Two__Project > .Project__Information >.Information__Skills > .Skill__Name:last-of-type {
+    border-right: none;
+  }
+  
+  .Container__2 > .Two__Project > .Project__Information >.Information__Skills >.Skill__Title{
+   
+    padding-bottom: 10px;
+  }
+  
+  .Container__2 > .Two__Project > .Project__Information > .Information__Link > div{
+    display: inline;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-right: 1px solid white;
+  
+  }
+  
+  .Container__2 > .Two__Project > .Project__Information > .Information__Link > div:last-of-type{
+    display: inline;
+    padding-left: 15px;
+    border-right: none;
+  }
