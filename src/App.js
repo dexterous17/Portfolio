@@ -2,6 +2,7 @@ import './Stylesheet/App.css';
 import Particles from './Particles';
 import Projectinformation from './Projectinformation';
 import image from "./self.jpg"
+import Link from './Container/Link';
 
 function App() {
  
@@ -29,7 +30,29 @@ function App() {
     }
   ]
 
-  const github = "https://github.com/dexterous17?tab=repositories"
+  const Link_data = [
+    {
+      "Name":"Github",
+      "href":""
+    },{
+
+    },{
+      "Name":"Resume",
+      "href":""
+    },
+    {
+      "Name":"Email",
+      "href":""
+    },{
+      "Name":"LinkdIn",
+      "href":""
+    },{
+      "Name":"Github",
+      "href":""
+    }
+  ]
+
+  
 
   
 return (
@@ -47,11 +70,11 @@ return (
             </div>
           
             <div className="Container__link">  
-              <a href={github} target={github}>Github.com</a>
-              <a href={github}>Resume</a>
-              <a href={github}>Email</a>
-              <a href={github}>Linkedin</a>
-              <a href={github}>Twitter</a>
+              {
+              Link_data.map((item)=>(
+              <Link data={item}/>   
+            ))
+            }
             </div>
           
           </div>
@@ -70,12 +93,7 @@ return (
               <Projectinformation data={item}/>   
             ))
             }
-                     
-            
             </div>
-
-                              
-
           <div className="Two__Certification">
 
           </div>
