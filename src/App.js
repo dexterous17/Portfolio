@@ -82,7 +82,9 @@ return (
         
         <div className="Container__2">
           <div className="Two__Introduction">
-          Self-taught Web developer with fundamental knowledge of frontend web development and UI design. Seeking to Utilize broad educational background with excellent analytical, technical, programming skills to thrive as an entry- level Frontend Web Developer.
+          Self-taught Web developer with the Fundamental Knowledge of HTML5, CSS3, Javascript, Node.js,React,js,MongoDB, Firebase and AWS. Seeking to utilize the Broad Knowledge to develop Web site which is used in real-time.
+              <br></br>
+          <strong>P.S</strong> : Actively seeking new Opportunities to Thrive as a Junior Frontend Web developer Where analytical, technical, Programming Skills are required.
           </div>
           <div className="Two__Project">
             <div className="Project__Title">
