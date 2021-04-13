@@ -37,10 +37,10 @@ function Projectinformation({data}) {
 
                                 <div className="Information__Link">
                                     <div className="Link__Repo">
-                                        Github link
+                                        <a href={data.Link[0]} target={data.Link[0]}>Github link</a>
                                     </div>
                                     <div className="Link__Project">
-                                        Live Project Link
+                                        <a href={data.Link[1]} target={data.Link[1]}>Live Project Link</a>
                                     </div>
                                     </div>
                                 </div>                        
