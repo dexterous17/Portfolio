@@ -1,6 +1,6 @@
 import './Stylesheet/App.css';
 import Particles from './Particles';
-import Projectinformation from './Projectinformation';
+import Projectinformation from './Container/Projectinformation';
 import image from "./self.jpg"
 import Link from './Container/Link';
 
@@ -11,22 +11,22 @@ function App() {
     {
     "Name":"Amazon",
     "Technologies":["HTML","CSS","Javascript","Node.js","React.js","Stripe.js","Firebase database","Firebase cloud function"],
-    link:[]
+    link:["","https://clone-7ef08.web.app/"]
     },
     {
       "Name":"Reading list",
       "Technologies":["HTML","CSS","Javascript","React.js","Firebase Hosting","Local storage"],
-      link:[]
+      link:["","https://reading-list-4f071.web.app/"]
     },
     {
       "Name":"Covid 19 Tracker",
       "Technologies":["HTML","CSS","Javascript","React.js","MATERIAL-UI","Firebase database","D3.js","React Leaflet"],
-      link:[]
+      link:["","https://covid-19-tracker-886fa.web.app/"]
     },
     {
       "Name":"LinkedIn",
       "Technologies":["HTML","CSS","Javascript","Node.js","React.js","Firebase database","Firebase cloud function"],
-      link:[]
+      link:["",""]
     }
   ]
 
