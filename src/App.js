@@ -10,22 +10,22 @@ function App() {
   
     {
     "Name":"Amazon",
-    "Technologies":["HTML","CSS","Javascript","Node.js","React.js","Stripe.js","Firebase database","Firebase cloud function"],
+    "Technologies":["HTML","CSS","Javascript","Node.js","React.js","Stripe.js","Firebase Database","Firebase Cloud Function"],
     link:["","https://clone-7ef08.web.app/"]
     },
     {
       "Name":"Reading list",
-      "Technologies":["HTML","CSS","Javascript","React.js","Firebase Hosting","Local storage"],
+      "Technologies":["HTML","CSS","Javascript","React.js","Firebase Hosting","Local Storage"],
       link:["","https://reading-list-4f071.web.app/"]
     },
     {
       "Name":"Covid 19 Tracker",
-      "Technologies":["HTML","CSS","Javascript","React.js","MATERIAL-UI","Firebase database","D3.js","React Leaflet"],
+      "Technologies":["HTML","CSS","Javascript","React.js","MATERIAL-UI","Firebase Database","D3.js","React Leaflet"],
       link:["","https://covid-19-tracker-886fa.web.app/"]
     },
     {
       "Name":"LinkedIn",
-      "Technologies":["HTML","CSS","Javascript","Node.js","React.js","Firebase database","Firebase cloud function"],
+      "Technologies":["HTML","CSS","Javascript","Node.js","React.js","Firebase Database","Firebase Cloud Function"],
       link:["",""]
     }
   ]
