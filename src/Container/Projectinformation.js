@@ -1,5 +1,5 @@
 import React from 'react'
-import './Stylesheet/Projectinformation.css'
+import '../Stylesheet/Projectinformation.css'
 
 function Projectinformation({data}) {
     return (
