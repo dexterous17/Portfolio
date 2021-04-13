@@ -1,5 +1,6 @@
 import React from 'react'
 import '../Stylesheet/Projectinformation.css'
+import SkillName from './SkillName'
 
 function Projectinformation({data}) {
     return (
@@ -13,34 +14,20 @@ function Projectinformation({data}) {
                                   <div className="Skill__Title">      
                                   Technologies used to write website :
                                   </div>
-
-                                  <div className="Skill__Name">
-                                      HTML
-                                  </div>
-                                  <div className="Skill__Name">
-                                      CSS
-                                  </div>
-                                  <div className="Skill__Name">
-                                      Javascript
-                                  </div>
-                                  <div className="Skill__Name">
-                                      Node.js
-                                  </div>
-                                  <div className="Skill__Name">
-                                      react.js
-                                  </div>
-                                  <div className="Skill__Name">
-                                      Stripe.js
-                                  </div>
+                                    {
+                                        data.Technologies.map((item)=>(
+                                            <SkillName data={item}/>    
+                                        ))
+                                    }
                                 </div>
 
 
                                 <div className="Information__Link">
                                     <div className="Link__Repo">
-                                        <a href={data.Link[0]} target={data.Link[0]}>Github link</a>
+                                        <a href={data.link[0]} target={data.link[0]}>Github link</a>
                                     </div>
                                     <div className="Link__Project">
-                                        <a href={data.Link[1]} target={data.Link[1]}>Live Project Link</a>
+                                        <a href={data.link[1]} target={data.link[1]}>Live Project Link</a>
                                     </div>
                                     </div>
                                 </div>                        

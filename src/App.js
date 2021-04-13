@@ -46,9 +46,6 @@ function App() {
     },{
       "Name":"LinkdIn",
       "href":""
-    },{
-      "Name":"Github",
-      "href":""
     }
   ]
 
