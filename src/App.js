@@ -24,7 +24,7 @@ function App() {
       link:["","https://covid-19-tracker-886fa.web.app/"]
     },
     {
-      "Name":"LinkedIn",
+      "Name":"Burger Builder App",
       "Technologies":["HTML","CSS","Javascript","Node.js","React.js","Firebase Database","Firebase Cloud Function"],
       link:["",""]
     }
