@@ -26,7 +26,7 @@ function App() {
     {
       "Name":"Burger Builder App",
       "Technologies":["HTML","CSS","Javascript","Node.js","React.js","Firebase Database","Firebase Cloud Function"],
-      link:["",""]
+      link:["","https://burger-app-c2bb0.web.app/"]
     }
   ]
 
