@@ -20,12 +20,12 @@ function App() {
     },
     {
       "Name":"Covid 19 Tracker",
-      "Technologies":["HTML","CSS","Javascript","React.js","MATERIAL-UI","Firebase Database","D3.js","React Leaflet"],
+      "Technologies":["HTML","CSS","Javascript","React.js","MATERIAL-UI","Firebase Database","D3.js","React Leaflet","Firebase Hosting"],
       link:["","https://covid-19-tracker-886fa.web.app/"]
     },
     {
       "Name":"Burger Builder App",
-      "Technologies":["HTML","CSS","Javascript","Node.js","React.js","Firebase Database","Firebase Cloud Function"],
+      "Technologies":["HTML","CSS","Javascript","Node.js","React.js","Firebase Database","Firebase Hosting"],
       link:["","https://burger-app-c2bb0.web.app/"]
     }
   ]
