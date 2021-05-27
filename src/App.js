@@ -39,13 +39,12 @@ function App() {
     },{
       "Name":"Resume",
       "href":""
-    },
-    {
+    },{
       "Name":"Email",
       "href":""
     },{
       "Name":"LinkdIn",
-      "href":""
+      "href":"https://www.linkedin.com/in/harshil-prajapati-008b101ba/"
     }
   ]
 
