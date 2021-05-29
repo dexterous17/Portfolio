@@ -21,7 +21,7 @@ function App() {
     {
       "Name":"Covid 19 Tracker",
       "Technologies":["HTML","CSS","Javascript","React.js","MATERIAL-UI","Firebase Database","D3.js","React Leaflet","Firebase Hosting"],
-      link:["","https://covid-19-tracker-886fa.web.app/"]
+      link:["https://github.com/dexterous17/Covid-19-Tracker","https://covid-19-tracker-886fa.web.app/"]
     },
     {
       "Name":"Burger Builder App",
