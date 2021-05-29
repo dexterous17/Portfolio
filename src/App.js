@@ -25,7 +25,7 @@ function App() {
     },
     {
       "Name":"Burger Builder App",
-      "Technologies":["HTML","CSS","Javascript","Node.js","React.js","Firebase Database","Firebase Hosting"],
+      "Technologies":["HTML","CSS","Javascript","Node.js","React.js","Redux","Firebase Database","Firebase Hosting"],
       link:["https://github.com/dexterous17/Burger-Builder-App","https://burger-app-c2bb0.web.app/"]
     }
   ]
