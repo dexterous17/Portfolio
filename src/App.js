@@ -16,7 +16,7 @@ function App() {
     {
       "Name":"Reading list",
       "Technologies":["HTML","CSS","Javascript","React.js","Firebase Hosting","Local Storage"],
-      link:["","https://reading-list-4f071.web.app/"]
+      link:["https://github.com/dexterous17/Reading-List","https://reading-list-4f071.web.app/"]
     },
     {
       "Name":"Covid 19 Tracker",
