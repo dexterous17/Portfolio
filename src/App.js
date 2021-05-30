@@ -11,7 +11,7 @@ function App() {
     {
     "Name":"Amazon",
     "Technologies":["HTML","CSS","Javascript","Node.js","React.js","Stripe.js","Firebase Database","Firebase Cloud Function"],
-    link:["","https://clone-7ef08.web.app/"]
+    link:["https://github.com/dexterous17/Amazon-Clone","https://clone-7ef08.web.app/"]
     },
     {
       "Name":"Reading list",
